@@ -1,0 +1,47 @@
+{
+  "name": "documentation",
+  "version": "0.0.0",
+  "description": "deocumentation",
+  "keywords": [
+    "story"
+  ],
+  "author": "“doxikus” <stanislav.mihic@minus5.hr>",
+  "homepage": "http://google.com",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxikus/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 9999",
+    "docs:dev": "npm run storybook"
+  },
+  "dependencies": {
+    "design-tokens": "^0.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "bugs": {
+    "url": "https://github.com/doxikus/lerna-demo/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/addon-storysource": "^6.0.21",
+    "@storybook/addon-viewport": "^6.0.21",
+    "@storybook/node-logger": "^6.0.21",
+    "@storybook/react": "^6.0.21",
+    "babel-loader": "^8.1.0"
+  }
+}
