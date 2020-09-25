@@ -8,7 +8,7 @@
   "author": "“doxikus” <stanislav.mihic@minus5.hr>",
   "homepage": "http://google.com",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -16,6 +16,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "registry": "http://npm.dev.minus5.hr/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doxikus/lerna-demo.git"
@@ -43,5 +46,6 @@
     "@storybook/node-logger": "^6.0.21",
     "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0"
-  }
+  },
+  "gitHead": "3cb1195765d6bbc28b357a7821d6f521d6485c43"
 }
