@@ -1,6 +1,6 @@
 {
   "name": "documentation",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "deocumentation",
   "keywords": [
     "story"
@@ -26,7 +26,7 @@
     "docs:dev": "npm run storybook"
   },
   "dependencies": {
-    "design-tokens": "^0.0.0",
+    "design-tokens": "^0.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
